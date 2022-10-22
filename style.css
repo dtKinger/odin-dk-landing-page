@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  margin: 0px;
 }
 
 ul {
@@ -74,12 +75,6 @@ div {
   border: 2px solid red;
 }
 
-.push-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .content-wrapper {
   display: flex;
   background-color: #1F2937;
@@ -87,7 +82,7 @@ div {
   align-items: center;
   justify-content: space-around;
   padding: 10px 10%;
-  max-height: 45vh;
+  max-height: 60vh;
 }
 
 .hero-col-1, .hero-col-2 {
@@ -127,22 +122,46 @@ div {
 
 .secondary-wrapper {
   display: flex;
-  flex-direction: column;
-  background-color: #1F2937;
-  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
   padding: 10px 10%;
-  max-height: 45vh;
+  max-height: 80vh;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.secondary-wrapper h1 {
+  font-size: 24px;
+  color: #1F2937;
 }
 
 .deck {
   display: flex;
+  flex-direction: row;
 }
 
 .card {
   flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 4px;
 }
 
-.card-image {
-  max-width: 100%;
-  height: auto;
+.card img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card p {
+  text-align: center;
+}
+
+h1 .quote1 {
+  font-size: 12px;
 }
