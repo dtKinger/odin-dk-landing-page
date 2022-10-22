@@ -19,12 +19,18 @@ ul {
 }
 
 a {
+  font-size: 18px;
+  color: white;
   text-decoration: none;
   padding: 0;
   margin: 0;
 }
 
-p, a, h6 {
+a:hover {
+  color: red;
+}
+
+p, h6 {
   Font-size: 1em;
 }
 
@@ -49,6 +55,10 @@ header {
   width: 120px;
 }
 
+.logo:hover {
+  border: 2px dashed black;
+}
+
 header .content-wrapper {
   justify-content: flex-end;
   flex: 1;
@@ -56,13 +66,18 @@ header .content-wrapper {
 
 footer {
   display: flex;
-  flex: 1;
   justify-content: center;
   align-items: center;
 }
 
 div {
   border: 2px solid red;
+}
+
+.push-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content-wrapper {
@@ -79,10 +94,55 @@ div {
   display: flex;
   flex: 1;
   justify-content: center;
+  flex-direction: column;
+}
+
+.hero-heading {
+  font-size: 36px;
+  margin-bottom: 4px;
+}
+
+.hero-description {
+  font-weight: 200;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
 
 .hero-image {
   max-width: 90%;
   object-fit: cover;
   padding: 10px;
+}
+
+.cta-primary {
+  width: 100px;
+  background-color: #3882f6;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.secondary-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  color: white;
+  padding: 10px 10%;
+  max-height: 45vh;
+}
+
+.deck {
+  display: flex;
+}
+
+.card {
+  flex: 1;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
 }
