@@ -130,19 +130,20 @@ max-height: 400px;
   justify-content: center;
   background-color: white;
   padding: 10px 10%;
-  max-height: 80vh;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
 .secondary-wrapper h1 {
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: 1000;
   color: #1F2937;
 }
 
 .deck {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card {
