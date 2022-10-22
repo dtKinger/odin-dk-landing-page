@@ -170,6 +170,31 @@ h1 .quote1 {
   font-size: 12px;
 }
 
-.class-wrapper {
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #e5e7eb;
+  padding: 100px 0px;
+}
+
+.quote-wrapper blockquote {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  margin: 10px 10%;
+}
+
+.quote-wrapper p, h6 {
+  font-weight: 1000;
+  text-align: right;
+  margin: 0;
+}
+
+.quote-wrapper p {
+  margin-right: 25%;
+}
+
+.quote-wrapper h6 {
+  margin-right: 20%;
 }
