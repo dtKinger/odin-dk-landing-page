@@ -131,7 +131,6 @@ max-height: 400px;
   background-color: white;
   padding: 10px 10%;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .secondary-wrapper h1 {
@@ -169,4 +168,8 @@ max-height: 400px;
 
 h1 .quote1 {
   font-size: 12px;
+}
+
+.class-wrapper {
+  background-color: #e5e7eb;
 }
