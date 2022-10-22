@@ -21,14 +21,15 @@ ul {
 
 a {
   font-size: 18px;
-  color: white;
+  /* First time using inherit... I think I get it now */
+  color: inherit;
   text-decoration: none;
   padding: 0;
   margin: 0;
 }
 
 a:hover {
-  color: red;
+  cursor: pointer;
 }
 
 p, h6 {
@@ -269,3 +270,4 @@ h1 .quote1 {
   color: #3882f6;
   cursor: pointer;
 }
+
