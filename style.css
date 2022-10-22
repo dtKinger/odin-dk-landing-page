@@ -84,15 +84,14 @@ div {
   background-color: #1F2937;
   color: white;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px 10%;
   flex-wrap: wrap;
 }
 
 .hero-col-1, .hero-col-2 {
   display: flex;
-  flex: 1;
-  justify-content: center;
+  flex: .5;
   flex-direction: column;
   min-width: 300px;
 }
