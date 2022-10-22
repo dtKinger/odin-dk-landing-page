@@ -82,7 +82,7 @@ div {
   align-items: center;
   justify-content: space-around;
   padding: 10px 10%;
-  max-height: 60vh;
+  flex-wrap: wrap;
 }
 
 .hero-col-1, .hero-col-2 {
@@ -90,6 +90,7 @@ div {
   flex: 1;
   justify-content: center;
   flex-direction: column;
+  min-width: 300px;
 }
 
 .hero-heading {
@@ -104,9 +105,12 @@ div {
   margin-bottom: 8px;
 }
 
+.hero-col-2 {
+max-width: 400px;
+max-height: 400px;
+}
+
 .hero-image {
-  max-width: 90%;
-  object-fit: cover;
   padding: 10px;
 }
 
