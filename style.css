@@ -42,7 +42,9 @@ strong {
 header, footer {
   background-color: #1F2937;
   color: white;
+  /* For development only
   border: 2px solid red;
+  */
 }
 
 header {
