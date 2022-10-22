@@ -71,9 +71,11 @@ footer {
   align-items: center;
 }
 
+/* For development only to visualize all divs 
 div {
   border: 2px solid red;
 }
+*/
 
 .content-wrapper {
   display: flex;
