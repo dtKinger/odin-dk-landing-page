@@ -119,13 +119,14 @@ max-height: 400px;
 }
 
 .cta-primary {
-  width: 100px;
   background-color: #3882f6;
   color: white;
   border-style: none;
   border-radius: 5px;
   padding: 8px;
   font-size: 18px;
+  width: 120px;
+  border: 2px solid transparent;
 }
 
 .cta-primary:hover {
